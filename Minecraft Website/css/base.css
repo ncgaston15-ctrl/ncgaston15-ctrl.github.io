@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url("../fonts/NunitoSans-VariableFont.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blocks';
+    src: url("../fonts/MinecraftTen-VGORe.ttf");
+    font-display: swap;
+}
+
+body {
+    font-family: 'Nunito Sans', Calibri, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+main {
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Blocks', 'Courier New', monospace;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.container {
+    display: block;
+    background-color: #f1f1f1;
+    border: 2px solid;
+    border-color: #4caf50;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+main a {
+    color: #0070f3;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+main a:hover {
+    color: #00469c;
+}
+
+.container:hover {
+    border-color: #d84315;
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}

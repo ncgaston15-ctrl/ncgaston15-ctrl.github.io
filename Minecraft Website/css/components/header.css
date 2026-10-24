@@ -1,0 +1,36 @@
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: #d84315;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #4caf50;
+    color: white;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+header p {
+    font-weight: 800;
+}

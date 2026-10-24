@@ -1,0 +1,20 @@
+footer {
+    padding: 10px 15px;
+    overflow: hidden;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    margin-right: 20px;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    background: #fafafa;
+    color: #d84315;
+}
